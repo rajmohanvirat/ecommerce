@@ -13,7 +13,7 @@ export default function Header() {
           placeholder='search...' />
           <button className='btn btn-success ms-4'  onClick={() => navigate('/')}>Home</button>
           <button className='btn btn-success ms-5'onClick={() => navigate('/cart')}>Cart</button>
-          <button className='btn btn-success ms-5'onClick={() => navigate('/home')}>signup</button>
+          <button className='btn btn-success ms-5'onClick={() => navigate('/signup')}>signup</button>
         </div>
 
       </div>

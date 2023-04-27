@@ -6,7 +6,7 @@ import Product from './Product';
 import Cart from './Cart';
 import Checkout from './Checkout';
 import Success from './Success';
-
+import Signup from "../components/signup/signup"
 
 
 export default function Home() {
@@ -22,6 +22,8 @@ export default function Home() {
           <Route path=':id' element={<Checkout />} />
           </Route>
           <Route path='/success' element={<Success />}/>
+          <Route path="/signup" element={<Signup />}/>
+          {/* <Route path="/Signup" element={<Signup />}></Route> */}
       </Routes>
       
     </div>
